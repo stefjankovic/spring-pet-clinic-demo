@@ -1,4 +1,6 @@
 package com.demo.springpetclinicdemo.model.services;
 
-public interface PetTypeService {
+import com.demo.springpetclinicdemo.model.model.PetType;
+
+public interface PetTypeService extends CrudService<PetType, Long> {
 }
